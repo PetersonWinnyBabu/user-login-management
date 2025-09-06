@@ -7,9 +7,9 @@ const authenticateToken = require('../controllers/authmiddleware');
 
 
 
-router.route('/register-user').post(createUser)
-router.route('/login-user').post(logUser)
-router.route('/user-profile').get(authenticateToken,getUser)
+router.route('/register').post(createUser)
+router.route('/login').post(logUser)
+router.route('/user').get(authenticateToken,getUser)
 
 
 module.exports = router;
