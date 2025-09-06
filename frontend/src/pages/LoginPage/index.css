@@ -1,0 +1,12 @@
+.login-background-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('https://res.cloudinary.com/dtkaykbuz/image/upload/v1757100221/abstract-dark-blue-futuristic-digital-grid-background_zfhqus.jpg');
+    background-size: cover;
+}
+.heading{
+    color: whitesmoke;
+}

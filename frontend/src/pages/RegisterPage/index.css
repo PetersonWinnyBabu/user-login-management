@@ -1,0 +1,12 @@
+.background-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('https://res.cloudinary.com/dtkaykbuz/image/upload/v1757100291/3607424_s67irs.jpg');
+    background-size: cover;
+}
+.heading{
+    color: whitesmoke;
+}
