@@ -29,7 +29,7 @@ const LoginForm = () => {
             .then(response => {
                     Cookies.set('jwt_token',response.data.jwt_token,{expires: 30})
                     console.log(response.data.message) 
-                    navigate("/user-dashboard",{replace:true})      
+                    navigate("/dashboard",{replace:true})      
             })
             .catch(error => {
                 setshowMsg(true)
@@ -102,7 +102,7 @@ const LoginForm = () => {
                 <button className="button-36" type="submit">Login</button>
                 {showMsg && <p className="response-msg">{responseMessage}</p>}
             </form>
-            <p className="not-user-line">Not a user <Link className="links" to = '/register-user'>Register Here</Link></p>
+            <p className="not-user-line">Not a user <Link className="links" to = '/register'>Register Here</Link></p>
         </div>
 }
 
