@@ -13,7 +13,7 @@ Sessions: Stay logged in using cookies & sessions
 
 Logout: Clear session and redirect to login page
 
-Protected Route: /user-dashboard is accessible only when logged in
+Protected Route: /dashboard is accessible only when logged in
 
 ⚙️ Installation
 
