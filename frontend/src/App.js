@@ -13,9 +13,9 @@ function App() {
   return (
 <Routes>
     <Route path = "/" element = {<LoginPage/>} />
-    <Route path = "/register-user" element = {<RegisterPage/>} />
+    <Route path = "/register" element = {<RegisterPage/>} />
   <Route element={<PrivateRoutes/>}>
-    <Route path = "/user-dashboard" element = {<DashboardPage/>} />
+    <Route path = "/dashboard" element = {<DashboardPage/>} />
   </Route> 
 </Routes>
   );
