@@ -14,7 +14,7 @@ dotenv.config();
 const  PORT = process.env.PORT
 const app = express()
 app.use(cors({
-        origin : 'https://user-login-management.vercel.app/',
+        origin : 'https://user-login-management.vercel.app',
         credentials : true
  }))
 
