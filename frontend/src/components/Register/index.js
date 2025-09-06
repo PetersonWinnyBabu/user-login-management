@@ -23,7 +23,7 @@ const RegisterForm = () => {
                 "email_address": emailAddress,
                 "password" : password
             }
-            axios.post('http://localhost:5000/api/register-user',body)
+            axios.post('https://user-login-management.onrender.com/api/register',body)
             .then(response => {
                 alert(response.data.message)
                 navigate("/",{replace:true})
