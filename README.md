@@ -7,7 +7,7 @@ It includes user registration, login, session-based authentication, logout, and 
 
 Register (Sign Up): Create a new account with email & password
 
-Login: Authenticate with registered credentials
+Login: Authenticate with registered credentials(For Example: use Credentials {Email: winnybabu@gmail.com , Password : winny@123})
 
 Sessions: Stay logged in using cookies & sessions
 
