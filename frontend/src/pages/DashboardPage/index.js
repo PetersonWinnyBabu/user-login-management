@@ -15,7 +15,7 @@ const DashboardPage = () => {
     
     
     useEffect(() => {   
-        axios.get("http://localhost:5000/api/user", {
+        axios.get("https://user-login-management.onrender.com/api/user", {
         headers: {
             Authorization: `Bearer ${token}`
         }
