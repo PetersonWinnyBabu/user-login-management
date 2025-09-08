@@ -61,6 +61,9 @@ bcryptjs
 body-parser
  – Parse form data
 
+ frontend
+ - React js
+
 
 📜 License
 
